@@ -10,7 +10,7 @@ var t_ort = new L.tileLayer('http://cyberjapandata.gsi.go.jp/xyz/ort/{z}/{x}/{y}
     attribution: "<a href='http://www.gsi.go.jp/kikakuchousei/kikakuchousei40182.html' target='_blank'>国土地理院</a>"
 });
 
-var t_flw = new L.vectorGrid.protobuf("https://kt-kitayama.github.io/BuzzMap/Flw/{z}/{x}/{y}.mvt", {
+L.vectorGrid.protobuf("https://kt-kitayama.github.io/BuzzMap/Flw/{z}/{x}/{y}.mvt", {
     attribution: "<a href='https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A45.html' target='_blank'>林野庁・秋田県</a>",
     maxNativeZoom: 18,
     minNativeZoom: 0,
@@ -22,10 +22,9 @@ var t_flw = new L.vectorGrid.protobuf("https://kt-kitayama.github.io/BuzzMap/Flw
             weight: 2
         }
     }
-});
+}.addTo(map));
 
 var Map_b = {
-    "蜜源": t_flw,
     "地理院地図 標準": t_std,
     "地理院地図 淡色": t_pale,
     "地理院地図 オルソ": t_ort,
