@@ -28,7 +28,7 @@ var Map_b = {
     "地理院地図 標準": t_std,
     "地理院地図 淡色": t_pale,
     "地理院地図 オルソ": t_ort,
-    "地理院地図 オルソ": t_flw,
+    "蜜源": t_flw,
 };
 
 var map = L.map('map', {
