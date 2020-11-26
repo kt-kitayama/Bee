@@ -22,7 +22,7 @@ var t_flw = new L.vectorGrid.protobuf("https://kt-kitayama.github.io/BuzzMap/Flw
             weight: 2
         }
     }
-});
+}).addTo(map);
 
 
 var Map_b = {
