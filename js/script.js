@@ -34,7 +34,7 @@ L.vectorGrid.protobuf("https://kt-kitayama.github.io/BuzzMap/Flw/{z}/{x}/{y}.mvt
             weight: 2
         }
     }
-}.addTo(map));
+}).addTo(map);
 
 L.control.scale({ maxWidth: 250, imperial: false }).addTo(map);
 
