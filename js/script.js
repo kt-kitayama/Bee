@@ -24,8 +24,8 @@ var map = L.map('map', {
 
 L.vectorGrid.protobuf("https://kt-kitayama.github.io/BuzzMap/Flw/{z}/{x}/{y}.mvt", {
     attribution: "<a href='https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A45.html' target='_blank'>林野庁・秋田県</a>",
-    maxNativeZoom: 18,
-    minNativeZoom: 0,
+    maxNativeZoom: 14,
+    minNativeZoom: 14,
     maxZoom: 18,
     rendererFactory: L.canvas.tile,
     vectorTileLayerStyles: {
