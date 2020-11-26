@@ -26,10 +26,10 @@ var t_flw = new L.vectorGrid.protobuf("https://kt-kitayama.github.io/BuzzMap/Flw
 
 
 var Map_b = {
+    "ふらわ": t_flw,
     "地理院地図 標準": t_std,
     "地理院地図 淡色": t_pale,
     "地理院地図 オルソ": t_ort,
-    "ふらわ": t_flw,
 };
 
 var map = L.map('map', {
