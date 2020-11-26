@@ -31,7 +31,7 @@ L.vectorGrid.protobuf("https://kt-kitayama.github.io/BuzzMap/Flw/{z}/{x}/{y}.mvt
     vectorTileLayerStyles: {
         "AkitaBee(樹種のみ蜜源)": {
             color: "red",
-            weight: 2
+            weight: 1
         }
     }
 }.addTo(map));
