@@ -39,8 +39,8 @@ var t_flw = new L.vectorGrid.protobuf("https://kt-kitayama.github.io/BuzzMap/Flw
         }
     }
 });
-t_flw.bringToFront();
 t_flw.addTo(map);
+t_flw.bringToFront();
 
 // singleclick（mapに設定）
 map.options.singleClickTimeout = 250;
