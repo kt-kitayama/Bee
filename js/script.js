@@ -32,6 +32,7 @@ var t_flw = new L.vectorGrid.protobuf("https://kt-kitayama.github.io/BuzzMap/Flw
     minNativeZoom: 14,
     maxZoom: 18,
     rendererFactory: L.canvas.tile,
+    zIndexOffset: 9999,
     vectorTileLayerStyles: {
         "AkitaBee(樹種のみ蜜源)": {
             color: "red",
