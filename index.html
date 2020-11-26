@@ -25,14 +25,14 @@
       maxNativeZoom: 18
     }).addTo(map);
 
-    L.vectorGrid.protobuf("https://wata909.github.io/atsuma_mvt/sediment/{z}/{x}/{y}.pbf", {
-      attribution: "<a href='https://github.com/koukita/2018_09_06_atumatyou' target='_blank'>この地図は地理院地図　平成30年北海道胆振東部地震 厚真川地区 正射画像をトレースした地図です</a>",
+    L.vectorGrid.protobuf("https://kt-kitayama.github.io/BuzzMap/Flw/{z}/{x}/{y}.mvt", {
+      attribution: "<a href='https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A45.html' target='_blank'>林野庁・秋田県</a>",
       maxNativeZoom: 14,
       minNativeZoom: 14,
       maxZoom: 18,
       rendererFactory: L.canvas.tile,
       vectorTileLayerStyles: {
-        "厚真町堆積土トレース": {
+        "AkitaBee(樹種のみ蜜源)": {
           color: "red",
           weight: 2
         }
