@@ -26,7 +26,7 @@ L.control.scale({ maxWidth: 250, imperial: false }).addTo(map);
 
 L.control.layers(Map_b, null, { collapsed: false, hideSingleBase: true }).addTo(map);
 
-var t_flw = new L.vectorGrid.protobuf("https://kt-kitayama.github.io/BuzzMap/Flw/{z}/{x}/{y}.mvt", {
+var t_flw = new L.vectorGrid.protobuf("https://kt-kitayama.github.io/Bee/Flw/{z}/{x}/{y}.mvt", {
     attribution: "<a href='https://nlftp.mlit.go.jp/ksj/gml/datalist/KsjTmplt-A45.html' target='_blank'>林野庁・秋田県</a>",
     maxNativeZoom: 14,
     minNativeZoom: 14,
