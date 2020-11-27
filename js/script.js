@@ -41,12 +41,11 @@ var t_flw = new L.vectorGrid.protobuf("https://kt-kitayama.github.io/BuzzMap/Flw
     }
 });
 t_flw.addTo(map);
-t_flw.bringToFront();
 
 // singleclick（mapに設定）
 map.options.singleClickTimeout = 250;
 map.on('singleclick', function (e) {
     L.popup().setLatLng(e.latlng)
-        .setContent('<b> 番号：</b><input type="text" name="name" size="30" maxlength="20"></br><input type="submit" value="ここに巣箱を設置">')
+        .setContent('<b> 番号：</b><input type="text" name="name" size="30" maxlength="20"></br><input type="submit" value="ここに設置">')
         .openOn(map);
 });
